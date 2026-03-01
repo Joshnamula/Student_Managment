@@ -1,0 +1,314 @@
+/* ============================= */
+/* GLOBAL */
+/* ============================= */
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f1f2f6;
+}
+
+/* ============================= */
+/* TOP NAVBAR */
+/* ============================= */
+
+.topbar {
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.topbar h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #2f3542;
+}
+
+.logout {
+    color: #ff4757;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}
+
+/* ============================= */
+/* SIDEBAR */
+/* ============================= */
+
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background-color: #2f3542;
+    padding-top: 20px;
+}
+
+.sidebar h3 {
+    color: #a4b0be;
+    font-size: 12px;
+    padding-left: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.sidebar a {
+    display: block;
+    padding: 12px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #57606f;
+    padding-left: 25px;
+}
+
+/* ============================= */
+/* MAIN CONTENT */
+/* ============================= */
+
+.main-content {
+    margin-left: 240px;
+    margin-top: 60px;
+    padding: 30px;
+}
+
+/* ============================= */
+/* DASHBOARD TITLE */
+/* ============================= */
+
+.dashboard-title {
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #2f3542;
+}
+
+/* ============================= */
+/* STAT CARDS */
+/* ============================= */
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    flex: 1;
+    min-width: 220px;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stat-card h4 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.stat-card span {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Card Colors */
+.blue {
+    background-color: #3498db;
+}
+
+.red {
+    background-color: #e74c3c;
+}
+
+.orange {
+    background-color: #f39c12;
+}
+
+.green {
+    background-color: #27ae60;
+}
+
+/* ============================= */
+/* FORM CARD */
+/* ============================= */
+
+.dashboard-card {
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    width: 400px;
+    margin: auto;
+}
+
+.dashboard-card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dashboard-card input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.dashboard-card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dashboard-card button:hover {
+    background-color: #2980b9;
+}
+
+/* ============================= */
+/* TABLE */
+/* ============================= */
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #2f3542;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+table tr:hover {
+    background-color: #f1f2f6;
+}
+
+/* ============================= */
+/* BUTTON LINKS */
+/* ============================= */
+
+.action-btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.edit-btn {
+    background-color: #3498db;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= LOGIN PAGE ================= */
+
+.login-body {
+    margin: 0;
+    height: 100vh;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk0JSwE-SLWuUwdoTpnLXKA-piADKX22YQKQ&s");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-card button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-card button:hover {
+    background-color: #2980b9;
+}
+
+.logout {
+    color: #ff4757;
+    text-decoration: none;
+    font-weight: 500;
+    float: right;
+    padding: 10px 15px;
+}
+.logout button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    text-decoration: underline;
+}

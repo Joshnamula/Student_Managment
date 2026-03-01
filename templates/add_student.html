@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="dashboard-card">
+    <h2>Add Student</h2>
+    <form method="POST">
+        <input type="text" name="roll_no" placeholder="Roll Number" required>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="number" name="marks" placeholder="Marks" required>
+        <button type="submit">Add</button>
+    </form>
+</div>
+
+{% endblock %}

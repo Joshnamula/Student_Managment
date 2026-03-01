@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% if student %}
+<div class="dashboard-card">
+    <h2>Student Result</h2>
+    <p><b>Roll No:</b> {{ student['roll_no'] }}</p>
+    <p><b>Name:</b> {{ student['name'] }}</p>
+    <p><b>Marks:</b> {{ student['marks'] }}</p>
+    <p><b>Grade:</b> {{ student['grade'] }}</p>
+</div>
+{% else %}
+<p>Student not found!</p>
+{% endif %}
+
+{% endblock %}
