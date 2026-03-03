@@ -239,7 +239,7 @@ table tr:hover {
 
 /* ================= LOGIN PAGE ================= */
 
-.login-body {
+/* .login-body {
     margin: 0;
     height: 100vh;
     background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk0JSwE-SLWuUwdoTpnLXKA-piADKX22YQKQ&s");
@@ -248,6 +248,16 @@ table tr:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+     */
+.login-body {
+    margin: 0;
+    height: 100vh;
+    background: url("https://www.univariety.com/blog/wp-content/uploads/2020/08/Blog-banner-image-1.jpg") no-repeat center fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .login-container {
